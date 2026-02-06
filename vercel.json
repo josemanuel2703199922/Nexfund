@@ -1,0 +1,10 @@
+{
+    "$schema": "https://openapi.vercel.sh/vercel.sh/vercel.json",
+    "buildCommand": "cd packages/nextjs && NODE_OPTIONS='--max-old-space-size=4096' yarn build",
+    "installCommand": "yarn install --frozen-lockfile",
+    "framework": null,
+    "outputDirectory": "packages/nextjs/.next",
+    "env": {
+        "NODE_ENV": "production"
+    }
+}

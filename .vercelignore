@@ -1,0 +1,13 @@
+node_modules
+.git
+*.log
+.cache
+.next/cache
+packages/hardhat/artifacts
+packages/hardhat/cache
+.vercel
+dist
+build
+.env.local
+.env.*.local
+*.tsbuildinfo
