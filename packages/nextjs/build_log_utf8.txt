@@ -1,0 +1,1828 @@
+﻿   Ôû▓ Next.js 15.2.9
+   - Environments: .env.local
+
+   Creating an optimized production build ...
+ Ô£ô Compiled successfully
+   Linting and checking validity of types ...
+node.exe : 
+En C:\Users\Administra
+dor\AppData\Roaming\np
+m\yarn.ps1: 24 
+Carácter: 5
++     & "node$exe"  "$
+basedir/node_modules/y
+arn/bin/yarn.js" $args
++     ~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo    
+          : NotSpeci  
+  fied: (:String) [   
+ ], RemoteExceptio    
+n
+    + FullyQualifiedE 
+   rrorId : NativeCo  
+  mmandError
+ 
+Failed to compile.
+
+./app/blockexplorer/ad
+dress/[address]/page.t
+sx
+1:1  Warning: Delete 
+`ÔÉìÔÅÄ`  
+prettier/prettier
+102:28  Warning: 
+Insert `ÔÉìÔÅÄ`  
+prettier/prettier
+
+./app/layout.tsx
+1:1  Warning: Delete 
+`ÔÉìÔÅÄ`  
+prettier/prettier
+9:1  Warning: Delete 
+`ÔÉìÔÅÄ`  
+prettier/prettier
+11:10  Warning: 
+Replace `'Scaffold-ETH
+┬À2┬ÀApp'` with `"Scaf
+fold-ETH┬À2┬ÀApp"`  
+prettier/prettier
+12:16  Warning: 
+Replace 
+`'Built┬Àwith┬ÀƒÅù┬ÀSc
+affold-ETH┬À2'` with 
+`"Built┬Àwith┬ÀƒÅù┬ÀSc
+affold-ETH┬À2",`  
+prettier/prettier
+27:31  Warning: 
+Insert `ÔÉìÔÅÄ`  
+prettier/prettier
+
+./app/page.tsx
+3:24  Warning: 
+Replace `State,┬ÀuseRe
+f,┬ÀuseMemo` with `Mem
+o,┬ÀuseRef,┬ÀuseState`
+  prettier/prettier
+5:10  Warning: Delete 
+`useScaffoldReadContra
+ct,┬ÀuseScaffoldWriteC
+ontract┬À}┬Àfrom┬À"~~/
+hooks/scaffold-eth";ÔÉ
+ìÔÅÄimport┬À{┬À`  
+prettier/prettier
+7:9  Warning: Replace 
+`┬ÀuseAccount,┬ÀuseBal
+ance,┬ÀuseReadContract
+,┬ÀuseWriteContract,┬À
+usePublicClient,┬ÀuseW
+atchContractEvent┬À}┬À
+from┬À"wagmi";ÔÉìÔÅÄim
+port┬À{┬Ànotification┬
+À}┬Àfrom┬À"~~/utils/sc
+affold-eth` with `ÔÉìÔ
+ÅÄ┬À┬ÀuseAccount,ÔÉìÔÅ
+Ä┬À┬ÀuseBalance,ÔÉìÔÅÄ
+┬À┬ÀusePublicClient,ÔÉ
+ìÔÅÄ┬À┬ÀuseReadContrac
+t,ÔÉìÔÅÄ┬À┬ÀuseWatchCo
+ntractEvent,ÔÉìÔÅÄ┬À┬À
+useWriteContract,ÔÉìÔÅ
+Ä}┬Àfrom┬À"wagmi`  
+prettier/prettier
+9:10  Error: 
+'FaucetButton' is 
+defined but never 
+used.  @typescript-esl
+int/no-unused-vars
+9:24  Error: 'RainbowK
+itCustomConnectButton'
+ is defined but never 
+used.  @typescript-esl
+int/no-unused-vars
+11:13  Warning: 
+Replace `TargetNetwork
+┬À}┬Àfrom┬À"~~/hooks/s
+caffold-eth/useTargetN
+etwork` with `Scaffold
+ReadContract,┬ÀuseScaf
+foldWriteContract┬À}┬À
+from┬À"~~/hooks/scaffo
+ld-eth";ÔÉìÔÅÄimport┬À
+{┬ÀuseTargetNetwork┬À}
+┬Àfrom┬À"~~/hooks/scaf
+fold-eth/useTargetNetw
+ork";ÔÉìÔÅÄimport┬À{┬À
+notification┬À}┬Àfrom┬
+À"~~/utils/scaffold-et
+h`  prettier/prettier
+35:17  Error: 
+'userBalance' is 
+assigned a value but 
+never used.  @typescri
+pt-eslint/no-unused-va
+rs
+45:20  Warning: 
+Replace 
+`┬ÀsetMounted(true);` 
+with `ÔÉìÔÅÄ┬À┬À┬À┬Àse
+tMounted(true);ÔÉìÔÅÄ┬
+À`  prettier/prettier
+47:10  Warning: 
+Replace `┬Àdata:┬Àproj
+ects,┬ÀisLoading:┬ÀisL
+oadingProjects,┬Àerror
+:┬ÀprojectsError` 
+with `ÔÉìÔÅÄ┬À┬À┬À┬Àda
+ta:┬Àprojects,ÔÉìÔÅÄ┬À
+┬À┬À┬ÀisLoading:┬ÀisLo
+adingProjects,ÔÉìÔÅÄ┬À
+┬À┬À┬Àerror:┬Àprojects
+Error,ÔÉìÔÅÄ┬À`  
+prettier/prettier
+61:40  Warning: 
+Insert `,`  
+prettier/prettier
+65:36  Warning: 
+Insert `,`  
+prettier/prettier
+69:60  Warning: 
+Insert `,`  
+prettier/prettier
+92:98  Warning: 
+Insert `,`  
+prettier/prettier
+93:19  Warning: 
+Replace `(btn)` with 
+`btn`  
+prettier/prettier
+94:19  Warning: 
+Replace `┬Àkey={btn.ro
+le}┬ÀonClick={()┬À=>┬À
+setActiveRole(btn.role
+┬Àas┬Àany)}┬ÀclassName
+={`group┬Àcursor-point
+er┬Àbg-white┬Àp-10┬Àro
+unded-[3rem]┬Àborder-2
+┬Àborder-slate-100┬À${
+btn.color}┬Àtransition
+-all┬Àtext-center┬Àsha
+dow-sm┬Àhover:shadow-x
+l┬Àtransform┬Àhover:-t
+ranslate-y-2`}` with `
+ÔÉìÔÅÄ┬À┬À┬À┬À┬À┬À┬À┬À
+┬À┬À┬À┬À┬À┬À┬À┬Àkey={b
+tn.role}ÔÉìÔÅÄ┬À┬À┬À┬À
+┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À
+┬ÀonClick={()┬À=>┬Àset
+ActiveRole(btn.role┬Àa
+s┬Àany)}ÔÉìÔÅÄ┬À┬À┬À┬À
+┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À
+┬ÀclassName={`group┬Àc
+ursor-pointer┬Àbg-whit
+e┬Àp-10┬Àrounded-[3rem
+]┬Àborder-2┬Àborder-sl
+ate-100┬À${btn.color}┬
+Àtransition-all┬Àtext-
+center┬Àshadow-sm┬Àhov
+er:shadow-xl┬Àtransfor
+m┬Àhover:-translate-y-
+2`}ÔÉìÔÅÄ┬À┬À┬À┬À┬À┬À┬
+À┬À┬À┬À┬À┬À┬À┬À`  
+prettier/prettier
+105:22  Warning: 
+Replace `┬ÀonClick={()
+┬À=>┬ÀsetActiveRole(nu
+ll)}┬ÀclassName="px-4┬
+Àpy-2┬Àbg-white┬Àborde
+r┬Àborder-slate-200┬Àr
+ounded-xl┬Àfont-black┬
+Àtext-[9px]┬Àuppercase
+┬Àtracking-widest┬Àtex
+t-slate-400┬Àhover:tex
+t-blue-600┬Àtransition
+-all┬Àshadow-sm"` 
+with `ÔÉìÔÅÄ┬À┬À┬À┬À┬À
+┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À
+onClick={()┬À=>┬ÀsetAc
+tiveRole(null)}ÔÉìÔÅÄ┬
+À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬
+À┬À┬À┬À┬ÀclassName="px
+-4┬Àpy-2┬Àbg-white┬Àbo
+rder┬Àborder-slate-200
+┬Àrounded-xl┬Àfont-bla
+ck┬Àtext-[9px]┬Àupperc
+ase┬Àtracking-widest┬À
+text-slate-400┬Àhover:
+text-blue-600┬Àtransit
+ion-all┬Àshadow-sm"ÔÉì
+ÔÅÄ┬À┬À┬À┬À┬À┬À┬À┬À┬À┬
+À┬À┬À┬À┬À`  
+prettier/prettier
+109:23  Warning: 
+Replace `┬Àid="searchT
+erm"┬Àname="searchTerm
+"┬Àtype="text"┬Àplaceh
+older="Buscar..."┬Àcla
+ssName="w-full┬Àpx-10┬
+Àpy-2┬Àbg-white┬Àborde
+r┬Àborder-slate-200┬Àr
+ounded-xl┬Àfont-bold┬À
+text-xs┬Àoutline-none┬
+Àfocus:border-blue-500
+┬Àtransition-all┬Àshad
+ow-sm"┬Àvalue={searchT
+erm}┬ÀonChange={(e)┬À=
+>┬ÀsetSearchTerm(e.tar
+get.value)}` with `ÔÉì
+ÔÅÄ┬À┬À┬À┬À┬À┬À┬À┬À┬À┬
+À┬À┬À┬À┬À┬À┬À┬À┬Àid="s
+earchTerm"ÔÉìÔÅÄ┬À┬À┬À
+┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À
+┬À┬À┬À┬Àname="searchTe
+rm"ÔÉìÔÅÄ┬À┬À┬À┬À┬À┬À┬
+À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬
+Àtype="text"ÔÉìÔÅÄ┬À┬À
+┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À
+┬À┬À┬À┬À┬Àplaceholder=
+"Buscar..."ÔÉìÔÅÄ┬À┬À┬
+À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬
+À┬À┬À┬À┬ÀclassName="w-
+full┬Àpx-10┬Àpy-2┬Àbg-
+white┬Àborder┬Àborder-
+slate-200┬Àrounded-xl┬
+Àfont-bold┬Àtext-xs┬Ào
+utline-none┬Àfocus:bor
+der-blue-500┬Àtransiti
+on-all┬Àshadow-sm"ÔÉìÔ
+ÅÄ┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À
+┬À┬À┬À┬À┬À┬À┬À┬Àvalue=
+{searchTerm}ÔÉìÔÅÄ┬À┬À
+┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À
+┬À┬À┬À┬À┬ÀonChange={e┬
+À=>┬ÀsetSearchTerm(e.t
+arget.value)}ÔÉìÔÅÄ┬À┬
+À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬
+À┬À┬À`  
+prettier/prettier
+120:27  Warning: 
+Replace `┬Àid="project
+Name"┬Àname="projectNa
+me"┬ÀclassName="w-full
+┬Àh-10┬Àpx-4┬Àbg-slate
+-50┬Àborder┬Àborder-sl
+ate-100┬Àrounded-xl┬Àf
+ont-bold┬Àtext-xs"┬Àpl
+aceholder="Nombre..."┬
+Àvalue={projectName}┬À
+onChange={e┬À=>┬ÀsetPr
+ojectName(e.target.val
+ue)}` with `ÔÉìÔÅÄ┬À┬À
+┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À
+┬À┬À┬À┬À┬À┬À┬À┬À┬Àid="
+projectName"ÔÉìÔÅÄ┬À┬À
+┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À
+┬À┬À┬À┬À┬À┬À┬À┬À┬Àname
+="projectName"ÔÉìÔÅÄ┬À
+┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À
+┬À┬À┬À┬À┬À┬À┬À┬À┬À┬Àcl
+assName="w-full┬Àh-10┬
+Àpx-4┬Àbg-slate-50┬Àbo
+rder┬Àborder-slate-100
+┬Àrounded-xl┬Àfont-bol
+d┬Àtext-xs"ÔÉìÔÅÄ┬À┬À┬
+À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬
+À┬À┬À┬À┬À┬À┬À┬À┬Àplace
+holder="Nombre..."ÔÉìÔ
+ÅÄ┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À
+┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À
+┬Àvalue={projectName}Ô
+ÉìÔÅÄ┬À┬À┬À┬À┬À┬À┬À┬À┬
+À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬
+À┬À┬ÀonChange={e┬À=>┬À
+setProjectName(e.targe
+t.value)}ÔÉìÔÅÄ┬À┬À┬À┬
+À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬
+À┬À┬À┬À┬À`  
+prettier/prettier
+124:27  Warning: 
+Replace `┬Àid="project
+Target"┬Àname="project
+Target"┬ÀclassName="w-
+full┬Àh-10┬Àpx-4┬Àbg-s
+late-50┬Àborder┬Àborde
+r-slate-100┬Àrounded-x
+l┬Àfont-bold┬Àtext-xs"
+┬Àtype="number"┬Àstep=
+"0.0001"┬Àmin="0.0001"
+┬Àplaceholder="Ej:┬À0.
+1┬À(Medalla┬ÀOro)"┬Àva
+lue={projectTarget}┬Ào
+nChange={e┬À=>┬ÀsetPro
+jectTarget(e.target.va
+lue)}` with `ÔÉìÔÅÄ┬À┬
+À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬
+À┬À┬À┬À┬À┬À┬À┬À┬À┬Àid=
+"projectTarget"ÔÉìÔÅÄ┬
+À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬
+À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬Àn
+ame="projectTarget"ÔÉì
+ÔÅÄ┬À┬À┬À┬À┬À┬À┬À┬À┬À┬
+À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬
+À┬ÀclassName="w-full┬À
+h-10┬Àpx-4┬Àbg-slate-5
+0┬Àborder┬Àborder-slat
+e-100┬Àrounded-xl┬Àfon
+t-bold┬Àtext-xs"ÔÉìÔÅÄ
+┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À
+┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À
+type="number"ÔÉìÔÅÄ┬À┬
+À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬
+À┬À┬À┬À┬À┬À┬À┬À┬À┬Àste
+p="0.0001"ÔÉìÔÅÄ┬À┬À┬À
+┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À
+┬À┬À┬À┬À┬À┬À┬À┬Àmin="0
+.0001"ÔÉìÔÅÄ┬À┬À┬À┬À┬À
+┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À
+┬À┬À┬À┬À┬À┬Àplaceholde
+r="Ej:┬À0.1┬À(Medalla┬
+ÀOro)"ÔÉìÔÅÄ┬À┬À┬À┬À┬À
+┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À
+┬À┬À┬À┬À┬À┬Àvalue={pro
+jectTarget}ÔÉìÔÅÄ┬À┬À┬
+À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬
+À┬À┬À┬À┬À┬À┬À┬À┬ÀonCha
+nge={e┬À=>┬ÀsetProject
+Target(e.target.value)
+}ÔÉìÔÅÄ┬À┬À┬À┬À┬À┬À┬À┬
+À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬
+À`  prettier/prettier
+128:27  Warning: 
+Replace `┬Àid="project
+Days"┬Àname="projectDa
+ys"┬ÀclassName="w-full
+┬Àh-10┬Àpx-4┬Àbg-slate
+-50┬Àborder┬Àborder-sl
+ate-100┬Àrounded-xl┬Àf
+ont-bold┬Àtext-xs"┬Àty
+pe="number"┬Àvalue={pr
+ojectDays}┬ÀonChange={
+e┬À=>┬ÀsetProjectDays(
+e.target.value)}` 
+with `ÔÉìÔÅÄ┬À┬À┬À┬À┬À
+┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À
+┬À┬À┬À┬À┬À┬Àid="projec
+tDays"ÔÉìÔÅÄ┬À┬À┬À┬À┬À
+┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À
+┬À┬À┬À┬À┬À┬Àname="proj
+ectDays"ÔÉìÔÅÄ┬À┬À┬À┬À
+┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À
+┬À┬À┬À┬À┬À┬À┬ÀclassNam
+e="w-full┬Àh-10┬Àpx-4┬
+Àbg-slate-50┬Àborder┬À
+border-slate-100┬Àroun
+ded-xl┬Àfont-bold┬Àtex
+t-xs"ÔÉìÔÅÄ┬À┬À┬À┬À┬À┬
+À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬
+À┬À┬À┬À┬À┬Àtype="numbe
+r"ÔÉìÔÅÄ┬À┬À┬À┬À┬À┬À┬À
+┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À
+┬À┬À┬À┬Àvalue={project
+Days}ÔÉìÔÅÄ┬À┬À┬À┬À┬À┬
+À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬
+À┬À┬À┬À┬À┬ÀonChange={e
+┬À=>┬ÀsetProjectDays(e
+.target.value)}ÔÉìÔÅÄ┬
+À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬
+À┬À┬À┬À┬À┬À┬À┬À`  
+prettier/prettier
+130:26  Warning: 
+Replace `┬ÀclassName={
+`h-10┬Àtext-white┬Àrou
+nded-xl┬Àfont-black┬Àu
+ppercase┬Àtext-[9px]┬À
+shadow-md┬Àtransition-
+all┬À${(isCreating┬À||
+┬À!isConnected┬À||┬À!p
+rojectName┬À||┬ÀNumber
+(projectDays)┬À<=┬À0)`
+ with `ÔÉìÔÅÄ┬À┬À┬À┬À┬
+À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬
+À┬À┬À┬À┬ÀclassName={`h
+-10┬Àtext-white┬Àround
+ed-xl┬Àfont-black┬Àupp
+ercase┬Àtext-[9px]┬Àsh
+adow-md┬Àtransition-al
+l┬À${isCreating┬À||┬À!
+isConnected┬À||┬À!proj
+ectName┬À||┬ÀNumber(pr
+ojectDays)┬À<=┬À0`  
+prettier/prettier
+138:115  Warning: 
+Insert `,`  
+prettier/prettier
+146:23  Warning: 
+Replace `>{isCreating┬
+À?┬À"..."┬À:┬À"Lanzar"
+}` with `ÔÉìÔÅÄ┬À┬À┬À┬
+À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬
+À┬À┬À┬À>ÔÉìÔÅÄ┬À┬À┬À┬À
+┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À
+┬À┬À┬À┬À┬À{isCreating┬
+À?┬À"..."┬À:┬À"Lanzar"
+}ÔÉìÔÅÄ┬À┬À┬À┬À┬À┬À┬À┬
+À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À`
+  prettier/prettier
+153:109  Warning: 
+Replace 
+`Escaneando...` with `
+ÔÉìÔÅÄ┬À┬À┬À┬À┬À┬À┬À┬À
+┬À┬À┬À┬À┬À┬À┬À┬À┬À┬ÀEs
+caneando...ÔÉìÔÅÄ┬À┬À┬
+À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬
+À┬À┬À`  
+prettier/prettier
+155:107  Warning: 
+Replace `Error┬Àde┬Àco
+nexi├│n┬Àcon┬Àel┬Àcont
+rato` with `ÔÉìÔÅÄ┬À┬À
+┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À
+┬À┬À┬À┬À┬ÀError┬Àde┬Àc
+onexi├│n┬Àcon┬Àel┬Àcon
+tratoÔÉìÔÅÄ┬À┬À┬À┬À┬À┬
+À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À`
+  prettier/prettier
+157:109  Warning: 
+Replace `No┬Àhay┬Àproy
+ectos┬Àactivos` with `
+ÔÉìÔÅÄ┬À┬À┬À┬À┬À┬À┬À┬À
+┬À┬À┬À┬À┬À┬À┬À┬À┬À┬ÀNo
+┬Àhay┬Àproyectos┬Àacti
+vosÔÉìÔÅÄ┬À┬À┬À┬À┬À┬À┬
+À┬À┬À┬À┬À┬À┬À┬À┬À┬À`  
+prettier/prettier
+158:19  Warning: 
+Insert `(ÔÉìÔÅÄ┬À┬À┬À┬
+À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬
+À┬À`  
+prettier/prettier
+159:17  Warning: 
+Replace `<ProjectCard┬
+Àkey={project.contract
+Address┬À||┬Àindex}┬Àp
+roject={project}┬Àrole
+={activeRole}┬Àconnect
+edAddress={connectedAd
+dress}┬ÀinteractWithPr
+oject={interactWithPro
+ject}┬Àstates={{┬Àdona
+tionAmount,┬ÀsetDonati
+onAmount,┬ÀwithdrawRea
+son,┬ÀsetWithdrawReaso
+n┬À}}┬Àmounted={mounte
+d}` with `┬À┬À<Project
+CardÔÉìÔÅÄ┬À┬À┬À┬À┬À┬À
+┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À
+┬À┬À┬Àkey={project.con
+tractAddress┬À||┬Àinde
+x}ÔÉìÔÅÄ┬À┬À┬À┬À┬À┬À┬À
+┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À
+┬À┬Àproject={project}Ô
+ÉìÔÅÄ┬À┬À┬À┬À┬À┬À┬À┬À┬
+À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬
+Àrole={activeRole}ÔÉìÔ
+ÅÄ┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À
+┬À┬À┬À┬À┬À┬À┬À┬À┬À┬Àco
+nnectedAddress={connec
+tedAddress}ÔÉìÔÅÄ┬À┬À┬
+À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬
+À┬À┬À┬À┬À┬À┬ÀinteractW
+ithProject={interactWi
+thProject}ÔÉìÔÅÄ┬À┬À┬À
+┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À
+┬À┬À┬À┬À┬À┬Àstates={{┬
+ÀdonationAmount,┬ÀsetD
+onationAmount,┬Àwithdr
+awReason,┬ÀsetWithdraw
+Reason┬À}}ÔÉìÔÅÄ┬À┬À┬À
+┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À
+┬À┬À┬À┬À┬À┬Àmounted={m
+ounted}ÔÉìÔÅÄ┬À┬À┬À┬À┬
+À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬
+À┬À`  
+prettier/prettier
+160:15  Warning: 
+Replace `))` with `┬À┬
+À))ÔÉìÔÅÄ┬À┬À┬À┬À┬À┬À┬
+À┬À┬À┬À┬À┬À┬À┬À)`  
+prettier/prettier
+164:89  Warning: 
+Replace `ƒôè┬ÀAuditor├
+¡a┬ÀGeneral┬Àdel┬ÀSist
+ema` with `ÔÉìÔÅÄ┬À┬À┬
+À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬
+À┬À┬Àƒôè┬ÀAuditor├¡a┬À
+General┬Àdel┬ÀSistemaÔ
+ÉìÔÅÄ┬À┬À┬À┬À┬À┬À┬À┬À┬
+À┬À┬À┬À┬À┬À`  
+prettier/prettier
+169:113  Warning: 
+Replace `Proyecto` 
+with `ÔÉìÔÅÄ┬À┬À┬À┬À┬À
+┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À
+┬À┬À┬À┬À┬À┬À┬À┬ÀProyec
+toÔÉìÔÅÄ┬À┬À┬À┬À┬À┬À┬À
+┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À
+┬À┬À┬À┬À`  
+prettier/prettier
+170:113  Warning: 
+Replace 
+`Acci├│n┬À/┬ÀRaz├│n` 
+with `ÔÉìÔÅÄ┬À┬À┬À┬À┬À
+┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À
+┬À┬À┬À┬À┬À┬À┬À┬ÀAcci├│
+n┬À/┬ÀRaz├│nÔÉìÔÅÄ┬À┬À
+┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À
+┬À┬À┬À┬À┬À┬À┬À┬À┬À`  
+prettier/prettier
+171:114  Warning: 
+Replace `Monto` with `
+ÔÉìÔÅÄ┬À┬À┬À┬À┬À┬À┬À┬À
+┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À
+┬À┬À┬À┬À┬ÀMontoÔÉìÔÅÄ┬
+À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬
+À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À`
+  prettier/prettier
+175:56  Warning: 
+Replace `(ÔÉìÔÅÄ┬À┬À┬À
+┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À
+┬À┬À┬À┬À┬À┬À┬À┬À<Globa
+lAuditRow┬Àkey={p.cont
+ractAddress┬À||┬Àidx}┬
+Àproject={p}┬À/>ÔÉìÔÅÄ
+┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À
+┬À┬À┬À┬À┬À┬À┬À┬À┬À)` 
+with `<GlobalAuditRow┬
+Àkey={p.contractAddres
+s┬À||┬Àidx}┬Àproject={
+p}┬À/>`  
+prettier/prettier
+190:20  Warning: 
+Replace `┬Àproject?.co
+ntractAddress┬À&&┬Àpro
+ject.contractAddress.s
+tartsWith("0x")┬À?┬Àpr
+oject.contractAddress┬
+Àas┬À`0x${string}`` 
+with `ÔÉìÔÅÄ┬À┬À┬À┬Àpr
+oject?.contractAddress
+┬À&&┬Àproject.contract
+Address.startsWith("0x
+")ÔÉìÔÅÄ┬À┬À┬À┬À┬À┬À?┬
+À(project.contractAddr
+ess┬Àas┬À`0x${string}`
+)ÔÉìÔÅÄ┬À┬À┬À┬À┬À`  
+prettier/prettier
+214:57  Warning: 
+Replace `(item:┬Àany)┬
+À=>┬Àitem.type┬À===┬À"
+event"┬À&&┬Àitem.name┬
+À===┬À"ContributionRec
+eived"` with `ÔÉìÔÅÄ┬À
+┬À┬À┬À┬À┬À┬À┬À┬À┬À(ite
+m:┬Àany)┬À=>┬Àitem.typ
+e┬À===┬À"event"┬À&&┬Ài
+tem.name┬À===┬À"Contri
+butionReceived",ÔÉìÔÅÄ
+┬À┬À┬À┬À┬À┬À┬À┬À`  
+prettier/prettier
+215:51  Warning: 
+Replace `(item:┬Àany)┬
+À=>┬Àitem.type┬À===┬À"
+event"┬À&&┬Àitem.name┬
+À===┬À"RefundClaimed"`
+ with `ÔÉìÔÅÄ┬À┬À┬À┬À┬
+À┬À┬À┬À┬À┬À(item:┬Àany
+)┬À=>┬Àitem.type┬À===┬
+À"event"┬À&&┬Àitem.nam
+e┬À===┬À"RefundClaimed
+",ÔÉìÔÅÄ┬À┬À┬À┬À┬À┬À┬À
+┬À`  prettier/prettier
+224:20  Warning: 
+Insert `ÔÉìÔÅÄ┬À┬À┬À┬À
+┬À┬À┬À┬À┬À┬À┬À`  
+prettier/prettier
+225:13  Warning: 
+Insert `┬À┬À┬À┬À`  
+prettier/prettier
+226:13  Warning: 
+Insert `┬À┬À┬À┬À`  
+prettier/prettier
+227:1  Warning: 
+Replace `┬À┬À┬À┬À┬À┬À┬
+À┬À┬À┬À┬À┬À` with `┬À┬
+À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬
+À┬À┬À┬À`  
+prettier/prettier
+228:11  Warning: 
+Replace `})┬À:┬ÀPromis
+e.resolve([])` with `┬
+À┬À┬À┬À})ÔÉìÔÅÄ┬À┬À┬À┬
+À┬À┬À┬À┬À┬À┬À┬À┬À:┬ÀPr
+omise.resolve([]),`  
+prettier/prettier
+231:67  Warning: 
+Replace `(a:┬Àany,┬Àb:
+┬Àany)┬À=>ÔÉìÔÅÄ┬À┬À┬À
+┬À┬À┬À┬À┬À┬À┬À(Number(
+b.blockNumber)┬À-┬ÀNum
+ber(a.blockNumber))┬À|
+|┬À(Number(b.logIndex)
+┬À-┬ÀNumber(a.logIndex
+))` with `ÔÉìÔÅÄ┬À┬À┬À
+┬À┬À┬À┬À┬À┬À┬À(a:┬Àany
+,┬Àb:┬Àany)┬À=>┬ÀNumbe
+r(b.blockNumber)┬À-┬ÀN
+umber(a.blockNumber)┬À
+||┬ÀNumber(b.logIndex)
+┬À-┬ÀNumber(a.logIndex
+),`  prettier/prettier
+248:13  Warning: 
+Replace `(newLogs)` 
+with `newLogs`  
+prettier/prettier
+257:13  Warning: 
+Replace `(newLogs)` 
+with `newLogs`  
+prettier/prettier
+266:37  Warning: 
+Insert `ÔÉìÔÅÄ┬À┬À┬À┬À
+┬À┬À┬À`  
+prettier/prettier
+267:1  Warning: 
+Insert `┬À┬À`  
+prettier/prettier
+268:11  Warning: 
+Replace `<td┬ÀclassNam
+e="px-4┬Àpy-3┬Àfont-bo
+ld┬Àuppercase┬Àitalic┬
+Àborder-l-4┬Àborder-am
+ber-500┬Àtext-slate-50
+0">{project.name}` 
+with `┬À┬À<td┬ÀclassNa
+me="px-4┬Àpy-3┬Àfont-b
+old┬Àuppercase┬Àitalic
+┬Àborder-l-4┬Àborder-a
+mber-500┬Àtext-slate-5
+00">ÔÉìÔÅÄ┬À┬À┬À┬À┬À┬À
+┬À┬À┬À┬À┬À┬À┬À┬À{proje
+ct.name}ÔÉìÔÅÄ┬À┬À┬À┬À
+┬À┬À┬À┬À┬À┬À┬À┬À`  
+prettier/prettier
+269:11  Warning: 
+Insert `┬À┬À`  
+prettier/prettier
+270:1  Warning: 
+Insert `┬À┬À`  
+prettier/prettier
+271:13  Warning: 
+Insert `┬À┬À`  
+prettier/prettier
+271:68  Error: `"` 
+can be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  r
+eact/no-unescaped-enti
+ties
+271:79  Error: `"` 
+can be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  r
+eact/no-unescaped-enti
+ties
+272:1  Warning: 
+Insert `┬À┬À`  
+prettier/prettier
+273:11  Warning: 
+Insert `┬À┬À`  
+prettier/prettier
+274:9  Warning: 
+Insert `┬À┬À`  
+prettier/prettier
+275:1  Warning: 
+Insert `┬À┬À`  
+prettier/prettier
+276:32  Warning: 
+Insert `ÔÉìÔÅÄ┬À┬À┬À┬À
+┬À┬À┬À`  
+prettier/prettier
+277:1  Warning: 
+Replace 
+`┬À┬À┬À┬À┬À┬À┬À┬À` 
+with `┬À┬À┬À┬À┬À┬À┬À┬À
+┬À┬À`  
+prettier/prettier
+278:9  Warning: 
+Insert `┬À┬À`  
+prettier/prettier
+279:11  Warning: 
+Replace `<tr┬Àkey={`${
+event.transactionHash}
+-${i}`}┬ÀclassName={`$
+{isRefund┬À?┬À"bg-red-
+50/50"┬À:┬À"bg-slate-5
+0"}┬Àrounded-xl┬Àtext-
+[11px]`}` with `┬À┬À<t
+rÔÉìÔÅÄ┬À┬À┬À┬À┬À┬À┬À┬
+À┬À┬À┬À┬À┬À┬Àkey={`${e
+vent.transactionHash}-
+${i}`}ÔÉìÔÅÄ┬À┬À┬À┬À┬À
+┬À┬À┬À┬À┬À┬À┬À┬À┬Àclas
+sName={`${isRefund┬À?┬
+À"bg-red-50/50"┬À:┬À"b
+g-slate-50"}┬Àrounded-
+xl┬Àtext-[11px]`}ÔÉìÔÅ
+Ä┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬
+À┬À`  
+prettier/prettier
+280:13  Warning: 
+Insert `┬À┬À`  
+prettier/prettier
+281:1  Warning: 
+Insert `┬À┬À`  
+prettier/prettier
+282:15  Warning: 
+Insert `┬À┬À`  
+prettier/prettier
+283:1  Warning: 
+Insert `┬À┬À`  
+prettier/prettier
+284:15  Warning: 
+Insert `┬À┬À`  
+prettier/prettier
+285:1  Warning: 
+Insert `┬À┬À`  
+prettier/prettier
+286:15  Warning: 
+Insert `┬À┬À`  
+prettier/prettier
+287:1  Warning: 
+Insert `┬À┬À`  
+prettier/prettier
+288:13  Warning: 
+Insert `┬À┬À`  
+prettier/prettier
+289:15  Warning: 
+Replace `{isRefund┬À?┬
+À"-"┬À:┬À"+"}` with `┬
+À┬À{isRefund┬À?┬À"-"┬À
+:┬À"+"}ÔÉìÔÅÄ┬À┬À┬À┬À┬
+À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬
+À`  prettier/prettier
+290:13  Warning: 
+Insert `┬À┬À`  
+prettier/prettier
+291:1  Warning: 
+Insert `┬À┬À`  
+prettier/prettier
+292:9  Warning: 
+Insert `┬À┬À`  
+prettier/prettier
+293:1  Warning: 
+Insert `┬À┬À`  
+prettier/prettier
+304:46  Warning: 
+Replace `┬À?┬À(deploye
+dContracts┬Àas┬Àany)[t
+argetNetwork.id┬Àas┬Àk
+eyof┬Àtypeof┬Àdeployed
+Contracts]?.Crowdfundi
+ngPro?.abi` with `ÔÉìÔ
+ÅÄ┬À┬À┬À┬À?┬À(deployed
+Contracts┬Àas┬Àany)[ta
+rgetNetwork.id┬Àas┬Àke
+yof┬Àtypeof┬ÀdeployedC
+ontracts]?.Crowdfundin
+gPro?.abiÔÉìÔÅÄ┬À┬À┬À`
+  prettier/prettier
+327:10  Error: 
+'timeLeft' is 
+assigned a value but 
+never used.  @typescri
+pt-eslint/no-unused-va
+rs
+327:20  Error: 
+'setTimeLeft' is 
+assigned a value but 
+never used.  @typescri
+pt-eslint/no-unused-va
+rs
+339:16  Warning: 
+Replace `┬ÀclassName={
+`px-3┬Àpy-1┬Àrounded-l
+g┬Àtext-[8px]┬Àfont-bl
+ack┬Àuppercase┬Àborder
+┬À${isExpired┬À&&┬À!is
+Success┬À?┬À'bg-red-60
+0┬Àtext-white┬Àborder-
+red-700'┬À:┬ÀisSuccess
+┬À?┬À'bg-amber-50┬Àtex
+t-amber-600┬Àborder-am
+ber-100'┬À:┬À'bg-green
+-50┬Àtext-green-600┬Àb
+order-green-100'}`}` 
+with `ÔÉìÔÅÄ┬À┬À┬À┬À┬À
+┬À┬À┬À┬À┬À┬À┬ÀclassNam
+e={`px-3┬Àpy-1┬Àrounde
+d-lg┬Àtext-[8px]┬Àfont
+-black┬Àuppercase┬Àbor
+der┬À${isExpired┬À&&┬À
+!isSuccess┬À?┬À"bg-red
+-600┬Àtext-white┬Àbord
+er-red-700"┬À:┬ÀisSucc
+ess┬À?┬À"bg-amber-50┬À
+text-amber-600┬Àborder
+-amber-100"┬À:┬À"bg-gr
+een-50┬Àtext-green-600
+┬Àborder-green-100"}`}
+ÔÉìÔÅÄ┬À┬À┬À┬À┬À┬À┬À┬À
+┬À┬À`  
+prettier/prettier
+340:40  Warning: 
+Replace `'ÔØî┬ÀFracas├
+│'┬À:┬ÀisSuccess┬À?┬À'
+ƒÆ░┬À├ëxito'┬À:┬À'
+ƒÜÇ┬ÀActivo'` with `"Ô
+Øî┬ÀFracas├│"┬À:┬ÀisSu
+ccess┬À?┬À"
+ƒÆ░┬À├ëxito"┬À:┬À"
+ƒÜÇ┬ÀActivo"`  
+prettier/prettier
+349:104  Warning: 
+Replace 
+`{project.name}` with 
+`ÔÉìÔÅÄ┬À┬À┬À┬À┬À┬À┬À┬
+À┬À┬À{project.name}ÔÉì
+ÔÅÄ┬À┬À┬À┬À┬À┬À┬À┬À`  
+prettier/prettier
+352:13  Warning: 
+Replace 
+`{┬Àt:┬À0.001,┬Àe:┬À"ƒ
+Ñë"┬À},┬À{┬Àt:┬À0.01,┬
+Àe:┬À"ƒÑê"┬À},┬À{┬Àt:┬
+À0.1,┬Àe:┬À"ƒÑç"┬À}` 
+with `ÔÉìÔÅÄ┬À┬À┬À┬À┬À
+┬À┬À┬À┬À┬À┬À┬À{┬Àt:┬À0
+.001,┬Àe:┬À"ƒÑë"┬À},ÔÉ
+ìÔÅÄ┬À┬À┬À┬À┬À┬À┬À┬À┬À
+┬À┬À┬À{┬Àt:┬À0.01,┬Àe:
+┬À"ƒÑê"┬À},ÔÉìÔÅÄ┬À┬À┬
+À┬À┬À┬À┬À┬À┬À┬À┬À┬À{┬À
+t:┬À0.1,┬Àe:┬À"ƒÑç"┬À}
+,ÔÉìÔÅÄ┬À┬À┬À┬À┬À┬À┬À┬
+À┬À┬À`  
+prettier/prettier
+353:17  Warning: 
+Replace `┬Àkey={m.t}┬À
+className={`flex┬Àflex
+-col┬Àitems-center┬Àtr
+ansition-all┬Àduration
+-500┬À${raised┬À>=┬Àm.
+t┬À?┬À'opacity-100┬Àsc
+ale-125┬Àanimate-bounc
+e'┬À:┬À'opacity-20┬Àgr
+ayscale'}`}` with `ÔÉì
+ÔÅÄ┬À┬À┬À┬À┬À┬À┬À┬À┬À┬
+À┬À┬À┬À┬Àkey={m.t}ÔÉìÔ
+ÅÄ┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À
+┬À┬À┬À┬ÀclassName={`fl
+ex┬Àflex-col┬Àitems-ce
+nter┬Àtransition-all┬À
+duration-500┬À${raised
+┬À>=┬Àm.t┬À?┬À"opacity
+-100┬Àscale-125┬Àanima
+te-bounce"┬À:┬À"opacit
+y-20┬Àgrayscale"}`}ÔÉì
+ÔÅÄ┬À┬À┬À┬À┬À┬À┬À┬À┬À┬
+À┬À┬À`  
+prettier/prettier
+355:83  Warning: 
+Replace `'text-blue-60
+0'┬À:┬À'text-slate-400
+'}`}>{m.t}┬ÀETH` with 
+`"text-blue-600"┬À:┬À"
+text-slate-400"}`}>ÔÉì
+ÔÅÄ┬À┬À┬À┬À┬À┬À┬À┬À┬À┬
+À┬À┬À┬À┬À┬À┬À{m.t}┬ÀET
+HÔÉìÔÅÄ┬À┬À┬À┬À┬À┬À┬À┬
+À┬À┬À┬À┬À┬À┬À`  
+prettier/prettier
+365:44  Warning: 
+Replace `<span┬ÀclassN
+ame="text-slate-300┬Àm
+x-1">/</span>` with `Ô
+ÉìÔÅÄ┬À┬À┬À┬À┬À┬À┬À┬À┬
+À┬À┬À┬À┬À┬À┬À┬À<span┬À
+className="text-slate-
+300┬Àmx-1">/</span>ÔÉì
+ÔÅÄ┬À┬À┬À┬À┬À┬À┬À┬À┬À┬
+À┬À┬À┬À┬À┬À┬À`  
+prettier/prettier
+371:17  Warning: 
+Replace `┬ÀclassName={
+`h-full┬Àrounded-full┬
+Àtransition-all┬Àdurat
+ion-1000┬À${isSuccess┬
+À?┬À'bg-green-500'┬À:┬
+ÀisExpired┬À&&┬À!isSuc
+cess┬À?┬À'bg-red-500'┬
+À:┬À'bg-blue-600'}`}┬À
+style={{┬Àwidth:┬À`${p
+ercent}%`┬À}}` with `Ô
+ÉìÔÅÄ┬À┬À┬À┬À┬À┬À┬À┬À┬
+À┬À┬À┬À┬À┬ÀclassName={
+`h-full┬Àrounded-full┬
+Àtransition-all┬Àdurat
+ion-1000┬À${isSuccess┬
+À?┬À"bg-green-500"┬À:┬
+ÀisExpired┬À&&┬À!isSuc
+cess┬À?┬À"bg-red-500"┬
+À:┬À"bg-blue-600"}`}ÔÉ
+ìÔÅÄ┬À┬À┬À┬À┬À┬À┬À┬À┬À
+┬À┬À┬À┬À┬Àstyle={{┬Àwi
+dth:┬À`${percent}%`┬À}
+}ÔÉìÔÅÄ┬À┬À┬À┬À┬À┬À┬À┬
+À┬À┬À┬À`  
+prettier/prettier
+376:98  Warning: 
+Replace `Auditor├¡a┬Àd
+e┬ÀFondos` with `ÔÉìÔÅ
+Ä┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬
+À┬ÀAuditor├¡a┬Àde┬ÀFon
+dosÔÉìÔÅÄ┬À┬À┬À┬À┬À┬À┬
+À┬À┬À┬À`  
+prettier/prettier
+378:70  Warning: 
+Insert `ÔÉìÔÅÄ┬À┬À┬À┬À
+┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À(`
+  prettier/prettier
+379:1  Warning: 
+Replace `┬À┬À┬À┬À┬À┬À┬
+À┬À┬À┬À┬À┬À┬À┬À` with 
+`┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬
+À┬À┬À┬À┬À┬À`  
+prettier/prettier
+380:1  Warning: 
+Insert `┬À┬À`  
+prettier/prettier
+380:100  Error: `"` 
+can be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  r
+eact/no-unescaped-enti
+ties
+380:111  Error: `"` 
+can be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  r
+eact/no-unescaped-enti
+ties
+381:1  Warning: 
+Replace `┬À┬À┬À┬À┬À┬À┬
+À┬À┬À┬À┬À┬À┬À┬À┬À┬À` 
+with `┬À┬À┬À┬À┬À┬À┬À┬À
+┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À` 
+ prettier/prettier
+382:15  Warning: 
+Insert `┬À┬À`  
+prettier/prettier
+383:13  Warning: 
+Replace `))┬À:┬À<p┬Àcl
+assName="text-[8px]┬Àt
+ext-center┬Àtext-slate
+-300┬Àitalic┬Àfont-bla
+ck┬Àuppercase">Sin┬Àre
+tiros┬Àregistrados</p>
+` with `┬À┬À))ÔÉìÔÅÄ┬À
+┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À
+)┬À:┬À(ÔÉìÔÅÄ┬À┬À┬À┬À┬
+À┬À┬À┬À┬À┬À┬À┬À┬À┬À<p┬
+ÀclassName="text-[8px]
+┬Àtext-center┬Àtext-sl
+ate-300┬Àitalic┬Àfont-
+black┬Àuppercase">ÔÉìÔ
+ÅÄ┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À
+┬À┬À┬À┬À┬À┬ÀSin┬Àretir
+os┬ÀregistradosÔÉìÔÅÄ┬
+À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬
+À┬À┬À</p>ÔÉìÔÅÄ┬À┬À┬À┬
+À┬À┬À┬À┬À┬À┬À┬À┬À)`  
+prettier/prettier
+394:25  Warning: 
+Replace `┬Àid={`withdr
+awReason-${addr}`}┬Àna
+me={`withdrawReason-${
+addr}`}┬Àplaceholder="
+Motivo┬Àdel┬Àretiro...
+"┬ÀclassName="w-full┬À
+h-8┬Àbg-white┬Àborder┬
+Àborder-slate-200┬Àrou
+nded-lg┬Àpx-3┬Àtext-[1
+0px]┬Àfont-bold"┬Àvalu
+e={states.withdrawReas
+on[addr]┬À||┬À""}┬ÀonC
+hange={e┬À=>┬Àstates.s
+etWithdrawReason({┬À..
+.states.withdrawReason
+,┬À[addr]:┬Àe.target.v
+alue┬À})}` with `ÔÉìÔÅ
+Ä┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬
+À┬À┬À┬À┬À┬À┬À┬À┬À┬Àid=
+{`withdrawReason-${add
+r}`}ÔÉìÔÅÄ┬À┬À┬À┬À┬À┬À
+┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À
+┬À┬À┬Àname={`withdrawR
+eason-${addr}`}ÔÉìÔÅÄ┬
+À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬
+À┬À┬À┬À┬À┬À┬À┬À┬Àplace
+holder="Motivo┬Àdel┬Àr
+etiro..."ÔÉìÔÅÄ┬À┬À┬À┬
+À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬
+À┬À┬À┬À┬À┬ÀclassName="
+w-full┬Àh-8┬Àbg-white┬
+Àborder┬Àborder-slate-
+200┬Àrounded-lg┬Àpx-3┬
+Àtext-[10px]┬Àfont-bol
+d"ÔÉìÔÅÄ┬À┬À┬À┬À┬À┬À┬À
+┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À
+┬À┬Àvalue={states.with
+drawReason[addr]┬À||┬À
+""}ÔÉìÔÅÄ┬À┬À┬À┬À┬À┬À┬
+À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬
+À┬À┬ÀonChange={e┬À=>┬À
+states.setWithdrawReas
+on({┬À...states.withdr
+awReason,┬À[addr]:┬Àe.
+target.value┬À})}ÔÉìÔÅ
+Ä┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬
+À┬À┬À┬À┬À┬À┬À`  
+prettier/prettier
+395:26  Warning: 
+Insert `ÔÉìÔÅÄ┬À┬À┬À┬À
+┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À
+┬À┬À┬À┬À`  
+prettier/prettier
+400:52  Warning: 
+Replace `┬ÀfunctionNam
+e:┬À"withdrawFunds",┬À
+address:┬Àaddr,┬Àargs:
+┬À[states.withdrawReas
+on[addr],┬ÀparseEther(
+currentBalance.toStrin
+g())]` with `ÔÉìÔÅÄ┬À┬
+À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬
+À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬
+À┬À┬ÀfunctionName:┬À"w
+ithdrawFunds",ÔÉìÔÅÄ┬À
+┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À
+┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À
+┬À┬À┬Àaddress:┬Àaddr,Ô
+ÉìÔÅÄ┬À┬À┬À┬À┬À┬À┬À┬À┬
+À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬
+À┬À┬À┬À┬À┬À┬Àargs:┬À[s
+tates.withdrawReason[a
+ddr],┬ÀparseEther(curr
+entBalance.toString())
+],ÔÉìÔÅÄ┬À┬À┬À┬À┬À┬À┬À
+┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À
+┬À┬À┬À┬À┬À`  
+prettier/prettier
+403:36  Warning: 
+Replace `┬Àconsole.err
+or(e);┬À}┬Àfinally┬À{┬
+ÀsetLoading(false);` 
+with `ÔÉìÔÅÄ┬À┬À┬À┬À┬À
+┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À
+┬À┬À┬À┬À┬À┬À┬À┬Àconsol
+e.error(e);ÔÉìÔÅÄ┬À┬À┬
+À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬
+À┬À┬À┬À┬À┬À┬À┬À┬À}┬Àfi
+nally┬À{ÔÉìÔÅÄ┬À┬À┬À┬À
+┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À
+┬À┬À┬À┬À┬À┬À┬À┬À┬ÀsetL
+oading(false);ÔÉìÔÅÄ┬À
+┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À
+┬À┬À┬À┬À┬À┬À┬À┬À┬À`  
+prettier/prettier
+404:23  Warning: 
+Replace `>Retirar┬Ày┬À
+Auditar` with `ÔÉìÔÅÄ┬
+À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬
+À┬À┬À┬À┬À┬À┬À>ÔÉìÔÅÄ┬À
+┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À
+┬À┬À┬À┬À┬À┬À┬À┬ÀRetira
+r┬Ày┬ÀAuditarÔÉìÔÅÄ┬À┬
+À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬
+À┬À┬À┬À┬À┬À`  
+prettier/prettier
+416:25  Warning: 
+Replace `┬Àid={`donati
+onAmount-${addr}`}┬Àna
+me={`donationAmount-${
+addr}`}┬Àtype="number"
+┬Àstep="0.001"┬ÀclassN
+ame="w-[40%]┬Àh-10┬Àbg
+-white┬Àborder┬Àborder
+-slate-200┬Àrounded-xl
+┬Àpx-3┬Àfont-black┬Àte
+xt-xs"┬Àplaceholder="E
+j:┬À0.1┬ÀOro"┬Àvalue={
+states.donationAmount[
+addr]┬À||┬À""}┬ÀonChan
+ge={e┬À=>┬Àstates.setD
+onationAmount({┬À...st
+ates.donationAmount,┬À
+[addr]:┬Àe.target.valu
+e┬À})}` with `ÔÉìÔÅÄ┬À
+┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À
+┬À┬À┬À┬À┬À┬À┬À┬Àid={`d
+onationAmount-${addr}`
+}ÔÉìÔÅÄ┬À┬À┬À┬À┬À┬À┬À┬
+À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬
+À┬Àname={`donationAmou
+nt-${addr}`}ÔÉìÔÅÄ┬À┬À
+┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À
+┬À┬À┬À┬À┬À┬À┬Àtype="nu
+mber"ÔÉìÔÅÄ┬À┬À┬À┬À┬À┬
+À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬
+À┬À┬À┬Àstep="0.001"ÔÉì
+ÔÅÄ┬À┬À┬À┬À┬À┬À┬À┬À┬À┬
+À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬Àc
+lassName="w-[40%]┬Àh-1
+0┬Àbg-white┬Àborder┬Àb
+order-slate-200┬Àround
+ed-xl┬Àpx-3┬Àfont-blac
+k┬Àtext-xs"ÔÉìÔÅÄ┬À┬À┬
+À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬
+À┬À┬À┬À┬À┬À┬Àplacehold
+er="Ej:┬À0.1┬ÀOro"ÔÉìÔ
+ÅÄ┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À
+┬À┬À┬À┬À┬À┬À┬À┬À┬À┬Àva
+lue={states.donationAm
+ount[addr]┬À||┬À""}ÔÉì
+ÔÅÄ┬À┬À┬À┬À┬À┬À┬À┬À┬À┬
+À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬Ào
+nChange={e┬À=>┬Àstates
+.setDonationAmount({┬À
+...states.donationAmou
+nt,┬À[addr]:┬Àe.target
+.value┬À})}ÔÉìÔÅÄ┬À┬À┬
+À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬
+À┬À┬À┬À`  
+prettier/prettier
+417:26  Warning: 
+Insert `ÔÉìÔÅÄ┬À┬À┬À┬À
+┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À
+┬À┬À┬À┬À`  
+prettier/prettier
+426:52  Warning: 
+Replace `┬ÀfunctionNam
+e:┬À"contribute",┬Àadd
+ress:┬Àaddr,┬Àvalue:┬À
+parseEther(states.dona
+tionAmount[addr])` 
+with `ÔÉìÔÅÄ┬À┬À┬À┬À┬À
+┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À
+┬À┬À┬À┬À┬À┬À┬À┬À┬À┬Àfu
+nctionName:┬À"contribu
+te",ÔÉìÔÅÄ┬À┬À┬À┬À┬À┬À
+┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À
+┬À┬À┬À┬À┬À┬À┬À┬À┬Àaddr
+ess:┬Àaddr,ÔÉìÔÅÄ┬À┬À┬
+À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬
+À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬
+À┬Àvalue:┬ÀparseEther(
+states.donationAmount[
+addr]),ÔÉìÔÅÄ┬À┬À┬À┬À┬
+À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬
+À┬À┬À┬À┬À┬À┬À┬À`  
+prettier/prettier
+429:36  Warning: 
+Replace `┬Àconsole.err
+or(e);┬À}┬Àfinally┬À{┬
+ÀsetLoading(false);` 
+with `ÔÉìÔÅÄ┬À┬À┬À┬À┬À
+┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À
+┬À┬À┬À┬À┬À┬À┬À┬Àconsol
+e.error(e);ÔÉìÔÅÄ┬À┬À┬
+À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬
+À┬À┬À┬À┬À┬À┬À┬À┬À}┬Àfi
+nally┬À{ÔÉìÔÅÄ┬À┬À┬À┬À
+┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À
+┬À┬À┬À┬À┬À┬À┬À┬À┬ÀsetL
+oading(false);ÔÉìÔÅÄ┬À
+┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À
+┬À┬À┬À┬À┬À┬À┬À┬À┬À`  
+prettier/prettier
+430:23  Warning: 
+Replace `>Donar` with 
+`ÔÉìÔÅÄ┬À┬À┬À┬À┬À┬À┬À┬
+À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À>
+ÔÉìÔÅÄ┬À┬À┬À┬À┬À┬À┬À┬À
+┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À
+┬ÀDonarÔÉìÔÅÄ┬À┬À┬À┬À┬
+À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬
+À┬À┬À`  
+prettier/prettier
+433:24  Warning: 
+Insert `ÔÉìÔÅÄ┬À┬À┬À┬À
+┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À
+┬À┬À`  
+prettier/prettier
+442:32  Warning: 
+Replace `┬ÀsetLoading(
+false);` with `ÔÉìÔÅÄ┬
+À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬
+À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬Às
+etLoading(false);ÔÉìÔÅ
+Ä┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬
+À┬À┬À┬À┬À┬À┬À┬À┬À`  
+prettier/prettier
+443:21  Warning: 
+Insert `ÔÉìÔÅÄ┬À┬À┬À┬À
+┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À
+┬À`  prettier/prettier
+464:20  Warning: 
+Replace 
+`┬ÀsetMounted(true);` 
+with `ÔÉìÔÅÄ┬À┬À┬À┬Àse
+tMounted(true);ÔÉìÔÅÄ┬
+À`  prettier/prettier
+530:20  Warning: 
+Replace `┬Àconsole.err
+or("Error┬Àdecodifican
+do┬ÀNFT:",┬Àe);` with 
+`ÔÉìÔÅÄ┬À┬À┬À┬À┬À┬À┬À┬
+Àconsole.error("Error┬
+Àdecodificando┬ÀNFT:",
+┬Àe);ÔÉìÔÅÄ┬À┬À┬À┬À┬À`
+  prettier/prettier
+531:13  Warning: 
+Replace `┬ÀsetNftMetad
+ata(null);` with `ÔÉìÔ
+ÅÄ┬À┬À┬À┬À┬À┬ÀsetNftMe
+tadata(null);ÔÉìÔÅÄ┬À┬
+À┬À`  
+prettier/prettier
+548:21  Warning: 
+Replace `(e)` with 
+`e`  prettier/prettier
+552:37  Warning: 
+Replace `(p)` with 
+`p`  prettier/prettier
+553:71  Warning: 
+Replace `{p.name}` 
+with `ÔÉìÔÅÄ┬À┬À┬À┬À┬À
+┬À┬À┬À┬À┬À┬À┬À┬À┬À{p.n
+ame}ÔÉìÔÅÄ┬À┬À┬À┬À┬À┬À
+┬À┬À┬À┬À┬À┬À`  
+prettier/prettier
+565:64  Warning: 
+Replace `Contribuci├│n
+┬Àactual:┬À{Number(eth
+Donados.toFixed(4))}┬À
+ETH` with `ÔÉìÔÅÄ┬À┬À┬
+À┬À┬À┬À┬À┬À┬À┬À┬À┬ÀCon
+tribuci├│n┬Àactual:┬À{
+Number(ethDonados.toFi
+xed(4))}┬ÀETHÔÉìÔÅÄ┬À┬
+À┬À┬À┬À┬À┬À┬À┬À┬À`  
+prettier/prettier
+577:104  Warning: 
+Replace `┬í┬ÀNIVEL┬À{t
+ier.toUpperCase()}┬À!`
+ with `ÔÉìÔÅÄ┬À┬À┬À┬À┬
+À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬
+À┬í┬ÀNIVEL┬À{tier.toUp
+perCase()}┬À!ÔÉìÔÅÄ┬À┬
+À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬
+À┬À`  
+prettier/prettier
+586:21  Warning: 
+Replace `┬ÀclassName={
+tier┬À===┬À"Bronce"┬À?
+┬À"text-orange-600┬Àou
+tline┬Àoutline-1┬Àoutl
+ine-orange-200┬Àpy-1┬À
+rounded"┬À:┬À"text-sla
+te-400┬Àopacity-50"}>
+ƒÑë┬À0.001` with `ÔÉìÔ
+ÅÄ┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À
+┬À┬À┬À┬À┬À┬À┬À┬ÀclassN
+ame={ÔÉìÔÅÄ┬À┬À┬À┬À┬À┬
+À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬
+À┬À┬À┬Àtier┬À===┬À"Bro
+nce"ÔÉìÔÅÄ┬À┬À┬À┬À┬À┬À
+┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À
+┬À┬À┬À┬À┬À?┬À"text-ora
+nge-600┬Àoutline┬Àoutl
+ine-1┬Àoutline-orange-
+200┬Àpy-1┬Àrounded"ÔÉì
+ÔÅÄ┬À┬À┬À┬À┬À┬À┬À┬À┬À┬
+À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬
+À┬À:┬À"text-slate-400┬
+Àopacity-50"ÔÉìÔÅÄ┬À┬À
+┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À
+┬À┬À┬À┬À┬À}ÔÉìÔÅÄ┬À┬À┬
+À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬
+À┬À┬À>ÔÉìÔÅÄ┬À┬À┬À┬À┬À
+┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À
+┬À┬ÀƒÑë┬À0.001ÔÉìÔÅÄ┬À
+┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À
+┬À┬À┬À┬À`  
+prettier/prettier
+587:21  Warning: 
+Replace `┬ÀclassName={
+tier┬À===┬À"Plata"┬À?┬
+À"text-slate-600┬Àoutl
+ine┬Àoutline-1┬Àoutlin
+e-slate-200┬Àpy-1┬Àrou
+nded"┬À:┬À"text-slate-
+400┬Àopacity-50"}>
+ƒÑê┬À0.01` with `ÔÉìÔÅ
+Ä┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬
+À┬À┬À┬À┬À┬À┬À┬ÀclassNa
+me={ÔÉìÔÅÄ┬À┬À┬À┬À┬À┬À
+┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À
+┬À┬À┬Àtier┬À===┬À"Plat
+a"ÔÉìÔÅÄ┬À┬À┬À┬À┬À┬À┬À
+┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À
+┬À┬À┬À┬À?┬À"text-slate
+-600┬Àoutline┬Àoutline
+-1┬Àoutline-slate-200┬
+Àpy-1┬Àrounded"ÔÉìÔÅÄ┬
+À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬
+À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À:
+┬À"text-slate-400┬Àopa
+city-50"ÔÉìÔÅÄ┬À┬À┬À┬À
+┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À
+┬À┬À┬À}ÔÉìÔÅÄ┬À┬À┬À┬À┬
+À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬
+À>ÔÉìÔÅÄ┬À┬À┬À┬À┬À┬À┬À
+┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À
+ƒÑê┬À0.01ÔÉìÔÅÄ┬À┬À┬À┬
+À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬
+À┬À`  
+prettier/prettier
+602:36  Warning: 
+Replace `┬Àconsole.err
+or(error);` with `ÔÉìÔ
+ÅÄ┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À
+┬À┬À┬À┬À┬À┬À┬À┬À┬À┬Àco
+nsole.error(error);ÔÉì
+ÔÅÄ┬À┬À┬À┬À┬À┬À┬À┬À┬À┬
+À┬À┬À┬À┬À┬À┬À┬À`  
+prettier/prettier
+615:17  Warning: 
+Using `<img>` could 
+result in slower LCP 
+and higher bandwidth. 
+Consider using 
+`<Image />` from 
+`next/image` or a 
+custom image loader 
+to automatically 
+optimize images. This 
+may incur additional 
+usage or cost from 
+your provider. See: ht
+tps://nextjs.org/docs/
+messages/no-img-elemen
+t  @next/next/no-img-e
+lement
+628:21  Warning: 
+Insert `ÔÉìÔÅÄ┬À┬À┬À┬À
+┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À
+┬À┬À`  
+prettier/prettier
+629:38  Warning: 
+Replace `'polygon(0%┬À
+0%,┬À100%┬À0%,┬À100%┬À
+100%,┬À50%┬À75%,┬À0%┬À
+100%)'┬À}}` with `"pol
+ygon(0%┬À0%,┬À100%┬À0%
+,┬À100%┬À100%,┬À50%┬À7
+5%,┬À0%┬À100%)"┬À}}ÔÉì
+ÔÅÄ┬À┬À┬À┬À┬À┬À┬À┬À┬À┬
+À┬À┬À┬À┬À┬À┬À`  
+prettier/prettier
+655:3  Warning: 
+Insert `ÔÉìÔÅÄ`  
+prettier/prettier
+
+./components/Header.ts
+x
+12:1  Warning: Delete 
+`ÔÉìÔÅÄÔÉìÔÅÄ`  
+prettier/prettier
+22:12  Warning: 
+Replace `'Inicio'` 
+with `"Inicio"`  
+prettier/prettier
+23:11  Warning: 
+Replace `'/'` with 
+`"/",`  
+prettier/prettier
+26:12  Warning: 
+Replace `'Contratos┬Àd
+e┬Àdepuraci├│n'` with 
+`"Contratos┬Àde┬Àdepur
+aci├│n"`  
+prettier/prettier
+27:11  Warning: 
+Replace `'/debug'` 
+with `"/debug"`  
+prettier/prettier
+28:45  Warning: 
+Insert `,`  
+prettier/prettier
+29:4  Warning: Insert 
+`,`  prettier/prettier
+44:29  Warning: 
+Insert `ÔÉìÔÅÄ┬À┬À┬À┬À
+┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À
+┬À`  prettier/prettier
+45:1  Warning: Delete 
+`┬À┬À`  
+prettier/prettier
+104:3  Warning: 
+Insert `ÔÉìÔÅÄ`  
+prettier/prettier
+
+./components/page.tsx
+4:10  Warning: Insert 
+`formatEther┬À}┬Àfrom┬
+À"viem";ÔÉìÔÅÄimport┬À
+{┬À`  
+prettier/prettier
+5:8  Warning: Replace 
+`{┬ÀformatEther┬À}┬Àfr
+om┬À"viem` with `deplo
+yedContracts┬Àfrom┬À"~
+~/contracts/deployedCo
+ntracts`  
+prettier/prettier
+6:35  Error: 'useScaff
+oldWriteContract' is 
+defined but never 
+used.  @typescript-esl
+int/no-unused-vars
+6:89  Warning: Delete 
+`";ÔÉìÔÅÄimport┬Àdeplo
+yedContracts┬Àfrom┬À"~
+~/contracts/deployedCo
+ntracts`  
+prettier/prettier
+16:10  Warning: 
+Delete `ÔÉìÔÅÄ`  
+prettier/prettier
+85:20  Warning: 
+Replace `┬Àconsole.err
+or("Error┬Àdecodifican
+do┬ÀNFT:",┬Àe);` with 
+`ÔÉìÔÅÄ┬À┬À┬À┬À┬À┬À┬À┬
+Àconsole.error("Error┬
+Àdecodificando┬ÀNFT:",
+┬Àe);ÔÉìÔÅÄ┬À┬À┬À┬À┬À`
+  prettier/prettier
+86:13  Warning: 
+Replace `┬ÀsetNftMetad
+ata(null);` with `ÔÉìÔ
+ÅÄ┬À┬À┬À┬À┬À┬ÀsetNftMe
+tadata(null);ÔÉìÔÅÄ┬À┬
+À┬À`  
+prettier/prettier
+105:21  Warning: 
+Replace `(e)` with 
+`e`  prettier/prettier
+109:37  Warning: 
+Replace `(p)` with 
+`p`  prettier/prettier
+110:71  Warning: 
+Replace `{p.name}` 
+with `ÔÉìÔÅÄ┬À┬À┬À┬À┬À
+┬À┬À┬À┬À┬À┬À┬À┬À┬À{p.n
+ame}ÔÉìÔÅÄ┬À┬À┬À┬À┬À┬À
+┬À┬À┬À┬À┬À┬À`  
+prettier/prettier
+122:64  Warning: 
+Replace `Contribuci├│n
+┬Àactual:┬À{Number(eth
+Donados.toFixed(4))}┬À
+ETH` with `ÔÉìÔÅÄ┬À┬À┬
+À┬À┬À┬À┬À┬À┬À┬À┬À┬ÀCon
+tribuci├│n┬Àactual:┬À{
+Number(ethDonados.toFi
+xed(4))}┬ÀETHÔÉìÔÅÄ┬À┬
+À┬À┬À┬À┬À┬À┬À┬À┬À`  
+prettier/prettier
+134:104  Warning: 
+Replace `┬í┬ÀNIVEL┬À{t
+ier.toUpperCase()}┬À!`
+ with `ÔÉìÔÅÄ┬À┬À┬À┬À┬
+À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬
+À┬í┬ÀNIVEL┬À{tier.toUp
+perCase()}┬À!ÔÉìÔÅÄ┬À┬
+À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬
+À┬À`  
+prettier/prettier
+143:21  Warning: 
+Replace `┬ÀclassName={
+tier┬À===┬À"Bronce"┬À?
+┬À"text-orange-600┬Àou
+tline┬Àoutline-1┬Àoutl
+ine-orange-200┬Àpy-1┬À
+rounded"┬À:┬À"text-sla
+te-400┬Àopacity-50"}>
+ƒÑë┬À0.001` with `ÔÉìÔ
+ÅÄ┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À
+┬À┬À┬À┬À┬À┬À┬À┬ÀclassN
+ame={ÔÉìÔÅÄ┬À┬À┬À┬À┬À┬
+À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬
+À┬À┬À┬Àtier┬À===┬À"Bro
+nce"ÔÉìÔÅÄ┬À┬À┬À┬À┬À┬À
+┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À
+┬À┬À┬À┬À┬À?┬À"text-ora
+nge-600┬Àoutline┬Àoutl
+ine-1┬Àoutline-orange-
+200┬Àpy-1┬Àrounded"ÔÉì
+ÔÅÄ┬À┬À┬À┬À┬À┬À┬À┬À┬À┬
+À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬
+À┬À:┬À"text-slate-400┬
+Àopacity-50"ÔÉìÔÅÄ┬À┬À
+┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À
+┬À┬À┬À┬À┬À}ÔÉìÔÅÄ┬À┬À┬
+À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬
+À┬À┬À>ÔÉìÔÅÄ┬À┬À┬À┬À┬À
+┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À
+┬À┬ÀƒÑë┬À0.001ÔÉìÔÅÄ┬À
+┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À
+┬À┬À┬À┬À`  
+prettier/prettier
+144:21  Warning: 
+Replace `┬ÀclassName={
+tier┬À===┬À"Plata"┬À?┬
+À"text-slate-600┬Àoutl
+ine┬Àoutline-1┬Àoutlin
+e-slate-200┬Àpy-1┬Àrou
+nded"┬À:┬À"text-slate-
+400┬Àopacity-50"}>
+ƒÑê┬À0.01` with `ÔÉìÔÅ
+Ä┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬
+À┬À┬À┬À┬À┬À┬À┬ÀclassNa
+me={ÔÉìÔÅÄ┬À┬À┬À┬À┬À┬À
+┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À
+┬À┬À┬Àtier┬À===┬À"Plat
+a"ÔÉìÔÅÄ┬À┬À┬À┬À┬À┬À┬À
+┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À
+┬À┬À┬À┬À?┬À"text-slate
+-600┬Àoutline┬Àoutline
+-1┬Àoutline-slate-200┬
+Àpy-1┬Àrounded"ÔÉìÔÅÄ┬
+À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬
+À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À:
+┬À"text-slate-400┬Àopa
+city-50"ÔÉìÔÅÄ┬À┬À┬À┬À
+┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À
+┬À┬À┬À}ÔÉìÔÅÄ┬À┬À┬À┬À┬
+À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬
+À>ÔÉìÔÅÄ┬À┬À┬À┬À┬À┬À┬À
+┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À
+ƒÑê┬À0.01ÔÉìÔÅÄ┬À┬À┬À┬
+À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬
+À┬À`  
+prettier/prettier
+175:17  Warning: 
+Using `<img>` could 
+result in slower LCP 
+and higher bandwidth. 
+Consider using 
+`<Image />` from 
+`next/image` or a 
+custom image loader 
+to automatically 
+optimize images. This 
+may incur additional 
+usage or cost from 
+your provider. See: ht
+tps://nextjs.org/docs/
+messages/no-img-elemen
+t  @next/next/no-img-e
+lement
+190:21  Warning: 
+Insert `ÔÉìÔÅÄ┬À┬À┬À┬À
+┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À
+┬À┬À`  
+prettier/prettier
+191:38  Warning: 
+Replace `'polygon(0%┬À
+0%,┬À100%┬À0%,┬À100%┬À
+100%,┬À50%┬À75%,┬À0%┬À
+100%)'┬À}}` with `"pol
+ygon(0%┬À0%,┬À100%┬À0%
+,┬À100%┬À100%,┬À50%┬À7
+5%,┬À0%┬À100%)"┬À}}ÔÉì
+ÔÅÄ┬À┬À┬À┬À┬À┬À┬À┬À┬À┬
+À┬À┬À┬À┬À┬À┬À`  
+prettier/prettier
+205:105  Warning: 
+Replace 
+`Medalla┬ÀDisponible` 
+with `ÔÉìÔÅÄ┬À┬À┬À┬À┬À
+┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À
+┬À┬ÀMedalla┬ÀDisponibl
+eÔÉìÔÅÄ┬À┬À┬À┬À┬À┬À┬À┬
+À┬À┬À┬À┬À┬À┬À┬À┬À`  
+prettier/prettier
+223:2  Warning: 
+Insert `ÔÉìÔÅÄ`  
+prettier/prettier
+
+./components/scaffold-
+eth/Faucet.tsx
+93:17  Warning: 
+Replace `┬ÀclassName="
+h-0┬Àw-0┬Àabsolute┬Àto
+p-0┬Àleft-0"┬Àid="fauc
+et-modal-dummy"┬Àname=
+"faucet-modal-dummy"┬À
+aria-label="Dummy┬Àinp
+ut"` with `ÔÉìÔÅÄ┬À┬À┬
+À┬À┬À┬À┬À┬À┬À┬À┬À┬Àcla
+ssName="h-0┬Àw-0┬Àabso
+lute┬Àtop-0┬Àleft-0"ÔÉ
+ìÔÅÄ┬À┬À┬À┬À┬À┬À┬À┬À┬À
+┬À┬À┬Àid="faucet-modal
+-dummy"ÔÉìÔÅÄ┬À┬À┬À┬À┬
+À┬À┬À┬À┬À┬À┬À┬Àname="f
+aucet-modal-dummy"ÔÉìÔ
+ÅÄ┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À
+┬À┬Àaria-label="Dummy┬
+Àinput"ÔÉìÔÅÄ┬À┬À┬À┬À┬
+À┬À┬À┬À┬À`  
+prettier/prettier
+121:26  Warning: 
+Replace `ÔÉìÔÅÄ┬À┬À┬À┬
+À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬
+À┬Àplaceholder="Amount
+┬Àto┬Àsend"ÔÉìÔÅÄ┬À┬À┬
+À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬
+À┬À┬ÀonValueChange={({
+┬ÀvalueInEth┬À})┬À=>┬À
+setSendValue(valueInEt
+h)}ÔÉìÔÅÄ┬À┬À┬À┬À┬À┬À┬
+À┬À┬À┬À┬À┬À┬À` with `┬
+Àplaceholder="Amount┬À
+to┬Àsend"┬ÀonValueChan
+ge={({┬ÀvalueInEth┬À})
+┬À=>┬ÀsetSendValue(val
+ueInEth)}`  
+prettier/prettier
+
+./components/scaffold-
+eth/RainbowKitCustomCo
+nnectButton/AddressQRC
+odeModal.tsx
+21:19  Warning: 
+Replace `┬ÀclassName="
+h-0┬Àw-0┬Àabsolute┬Àto
+p-0┬Àleft-0"┬Àid={`${m
+odalId}-dummy`}┬Àname=
+{`${modalId}-dummy`}┬À
+aria-label="Dummy┬Àinp
+ut"` with `ÔÉìÔÅÄ┬À┬À┬
+À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬
+ÀclassName="h-0┬Àw-0┬À
+absolute┬Àtop-0┬Àleft-
+0"ÔÉìÔÅÄ┬À┬À┬À┬À┬À┬À┬À
+┬À┬À┬À┬À┬À┬À┬Àid={`${m
+odalId}-dummy`}ÔÉìÔÅÄ┬
+À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬
+À┬À┬Àname={`${modalId}
+-dummy`}ÔÉìÔÅÄ┬À┬À┬À┬À
+┬À┬À┬À┬À┬À┬À┬À┬À┬À┬Àar
+ia-label="Dummy┬Àinput
+"ÔÉìÔÅÄ┬À┬À┬À┬À┬À┬À┬À┬
+À┬À┬À┬À`  
+prettier/prettier
+
+./components/scaffold-
+eth/RainbowKitCustomCo
+nnectButton/RevealBurn
+erPKModal.tsx
+30:15  Warning: 
+Replace `┬Àtype="check
+box"┬Àid="reveal-burne
+r-pk-modal"┬Àname="rev
+eal-burner-pk-modal"┬À
+className="modal-toggl
+e"┬Àref={modalCheckbox
+Ref}` with `ÔÉìÔÅÄ┬À┬À
+┬À┬À┬À┬À┬À┬À┬À┬Àtype="
+checkbox"ÔÉìÔÅÄ┬À┬À┬À┬
+À┬À┬À┬À┬À┬À┬Àid="revea
+l-burner-pk-modal"ÔÉìÔ
+ÅÄ┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À
+name="reveal-burner-pk
+-modal"ÔÉìÔÅÄ┬À┬À┬À┬À┬
+À┬À┬À┬À┬À┬ÀclassName="
+modal-toggle"ÔÉìÔÅÄ┬À┬
+À┬À┬À┬À┬À┬À┬À┬À┬Àref={
+modalCheckboxRef}ÔÉìÔÅ
+Ä┬À┬À┬À┬À┬À┬À┬À`  
+prettier/prettier
+34:19  Warning: 
+Replace `┬ÀclassName="
+h-0┬Àw-0┬Àabsolute┬Àto
+p-0┬Àleft-0"┬Àid="reve
+al-burner-pk-dummy"┬Àn
+ame="reveal-burner-pk-
+dummy"┬Àaria-label="Du
+mmy┬Àinput"` with `ÔÉì
+ÔÅÄ┬À┬À┬À┬À┬À┬À┬À┬À┬À┬
+À┬À┬À┬À┬ÀclassName="h-
+0┬Àw-0┬Àabsolute┬Àtop-
+0┬Àleft-0"ÔÉìÔÅÄ┬À┬À┬À
+┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À
+id="reveal-burner-pk-d
+ummy"ÔÉìÔÅÄ┬À┬À┬À┬À┬À┬
+À┬À┬À┬À┬À┬À┬À┬À┬Àname=
+"reveal-burner-pk-dumm
+y"ÔÉìÔÅÄ┬À┬À┬À┬À┬À┬À┬À
+┬À┬À┬À┬À┬À┬À┬Àaria-lab
+el="Dummy┬Àinput"ÔÉìÔÅ
+Ä┬À┬À┬À┬À┬À┬À┬À┬À┬À┬À┬
+À`  prettier/prettier
+
+./components/ScaffoldE
+thAppWithProviders.tsx
+15:1  Warning: 
+Replace `ÔÉìÔÅÄconst┬À
+ScaffoldEthApp┬À=┬À({┬
+Àchildren┬À}:┬À{┬Àchil
+dren:┬ÀReact.ReactNode
+┬À})┬À=>┬À{ÔÉìÔÅÄ` 
+with `const┬ÀScaffoldE
+thApp┬À=┬À({┬Àchildren
+┬À}:┬À{┬Àchildren:┬ÀRe
+act.ReactNode┬À})┬À=>┬
+À{`  prettier/prettier
+49:5  Warning: Insert 
+`┬À┬À`  
+prettier/prettier
+50:5  Warning: 
+Replace `<RainbowKitPr
+ovider┬Àavatar={Blocki
+eAvatar}┬Àtheme={mount
+ed┬À?┬À(isDarkMode┬À?┬
+ÀdarkTheme()┬À:┬Àlight
+Theme())┬À:┬ÀlightThem
+e()}` with `┬À┬À┬À┬À<R
+ainbowKitProviderÔÉìÔÅ
+Ä┬À┬À┬À┬À┬À┬À┬À┬À┬À┬Àa
+vatar={BlockieAvatar}Ô
+ÉìÔÅÄ┬À┬À┬À┬À┬À┬À┬À┬À┬
+À┬Àtheme={mounted┬À?┬À
+(isDarkMode┬À?┬ÀdarkTh
+eme()┬À:┬ÀlightTheme()
+)┬À:┬ÀlightTheme()}ÔÉì
+ÔÅÄ┬À┬À┬À┬À┬À┬À┬À┬À`  
+prettier/prettier
+51:1  Warning: 
+Replace 
+`┬À┬À┬À┬À┬À┬À` with `┬
+À┬À┬À┬À┬À┬À┬À┬À┬À┬À`  
+prettier/prettier
+52:7  Warning: Insert 
+`┬À┬À┬À┬À`  
+prettier/prettier
+53:1  Warning: 
+Replace `┬À┬À┬À┬À` 
+with 
+`┬À┬À┬À┬À┬À┬À┬À┬À`  
+prettier/prettier
+54:1  Warning: Insert 
+`┬À┬À`  
+prettier/prettier
+57:3  Warning: Insert 
+`ÔÉìÔÅÄ`  
+prettier/prettier
+
+info  - Need to 
+disable some ESLint 
+rules? Learn more 
+here: https://nextjs.o
+rg/docs/app/api-refere
+nce/config/eslint#disa
+bling-rules

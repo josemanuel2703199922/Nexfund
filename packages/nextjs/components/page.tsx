@@ -1,10 +1,11 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { useAccount, useReadContract, useWriteContract } from "wagmi";
+import Image from "next/image";
 import { formatEther } from "viem";
-import { useScaffoldReadContract, useScaffoldWriteContract } from "~~/hooks/scaffold-eth";
+import { useAccount, useReadContract, useWriteContract } from "wagmi";
 import deployedContracts from "~~/contracts/deployedContracts";
+import { useScaffoldReadContract } from "~~/hooks/scaffold-eth";
 import { useTargetNetwork } from "~~/hooks/scaffold-eth/useTargetNetwork";
 
 export default function Perfil({ setActiveRole }: { setActiveRole: (role: any) => void }) {
@@ -14,7 +15,6 @@ export default function Perfil({ setActiveRole }: { setActiveRole: (role: any) =
   useEffect(() => {
     setMounted(true);
   }, []);
-
 
   const [nftMetadata, setNftMetadata] = useState<any>(null);
   const [selectedProject, setSelectedProject] = useState<string>("");
@@ -82,8 +82,12 @@ export default function Perfil({ setActiveRole }: { setActiveRole: (role: any) =
         const jsonPart = uri.split("base64,")[1];
         const decoded = JSON.parse(window.atob(jsonPart));
         setNftMetadata(decoded);
-      } catch (e) { console.error("Error decodificando NFT:", e); }
-    } else { setNftMetadata(null); }
+      } catch (e) {
+        console.error("Error decodificando NFT:", e);
+      }
+    } else {
+      setNftMetadata(null);
+    }
   }, [uri]);
 
   if (!mounted) return null;
@@ -102,12 +106,14 @@ export default function Perfil({ setActiveRole }: { setActiveRole: (role: any) =
         <select
           id="projectSelect"
           name="projectSelect"
-          onChange={(e) => setSelectedProject(e.target.value)}
+          onChange={e => setSelectedProject(e.target.value)}
           className="p-2 border-2 border-black rounded-xl font-black text-xs bg-slate-100 shadow-[2px_2px_0px_0px_black] outline-none cursor-pointer"
         >
           <option value="">Selecciona un Proyecto</option>
-          {(projects as any[])?.map((p) => (
-            <option key={p.contractAddress} value={p.contractAddress}>{p.name}</option>
+          {(projects as any[])?.map(p => (
+            <option key={p.contractAddress} value={p.contractAddress}>
+              {p.name}
+            </option>
           ))}
         </select>
       </header>
@@ -119,7 +125,9 @@ export default function Perfil({ setActiveRole }: { setActiveRole: (role: any) =
       ) : !puedeReclamar ? (
         <div className="py-12 text-center bg-red-50 border-2 border-black rounded-[2rem]">
           <p className="text-xl font-black text-red-500 uppercase italic">Debes donar al menos 0.001 ETH</p>
-          <p className="text-sm font-bold text-slate-500 mt-2">Contribución actual: {Number(ethDonados.toFixed(4))} ETH</p>
+          <p className="text-sm font-bold text-slate-500 mt-2">
+            Contribución actual: {Number(ethDonados.toFixed(4))} ETH
+          </p>
         </div>
       ) : (
         <div className="grid md:grid-cols-2 gap-6 items-start animate-in zoom-in duration-300">
@@ -131,7 +139,9 @@ export default function Perfil({ setActiveRole }: { setActiveRole: (role: any) =
             >
               <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-tr from-white/20 to-transparent pointer-events-none"></div>
               <span className="text-7xl drop-shadow-[0_4px_4px_rgba(0,0,0,0.5)] animate-pulse z-10">{tierEmoji}</span>
-              <p className="font-black text-black uppercase italic text-[10px] mt-2 leading-none z-10">¡ NIVEL {tier.toUpperCase()} !</p>
+              <p className="font-black text-black uppercase italic text-[10px] mt-2 leading-none z-10">
+                ¡ NIVEL {tier.toUpperCase()} !
+              </p>
               <div className="mt-2 px-3 py-1 bg-black/10 rounded-full z-10 border border-black/10">
                 <p className="text-[11px] font-black text-black leading-none">{Number(ethDonados.toFixed(4))} ETH</p>
               </div>
@@ -140,8 +150,24 @@ export default function Perfil({ setActiveRole }: { setActiveRole: (role: any) =
             <div className="bg-slate-100 p-4 rounded-2xl border-2 border-black border-dashed mb-6">
               <p className="text-[10px] font-black uppercase italic text-slate-500 mb-2">Requisitos de Medalla:</p>
               <div className="grid grid-cols-3 gap-2 text-center text-[9px] font-black uppercase">
-                <div className={tier === "Bronce" ? "text-orange-600 outline outline-1 outline-orange-200 py-1 rounded" : "text-slate-400 opacity-50"}>🥉 0.001</div>
-                <div className={tier === "Plata" ? "text-slate-600 outline outline-1 outline-slate-200 py-1 rounded" : "text-slate-400 opacity-50"}>🥈 0.01</div>
+                <div
+                  className={
+                    tier === "Bronce"
+                      ? "text-orange-600 outline outline-1 outline-orange-200 py-1 rounded"
+                      : "text-slate-400 opacity-50"
+                  }
+                >
+                  🥉 0.001
+                </div>
+                <div
+                  className={
+                    tier === "Plata"
+                      ? "text-slate-600 outline outline-1 outline-slate-200 py-1 rounded"
+                      : "text-slate-400 opacity-50"
+                  }
+                >
+                  🥈 0.01
+                </div>
                 <div className="text-blue-600 bg-blue-50 py-1 rounded-lg border-2 border-blue-200">🏆 0.1 (ORO)</div>
               </div>
             </div>
@@ -172,9 +198,11 @@ export default function Perfil({ setActiveRole }: { setActiveRole: (role: any) =
           <div className="relative w-80 h-[480px] mx-auto flex flex-col items-center justify-start p-2">
             {nftMetadata ? (
               <div className="text-center animate-in zoom-in duration-700 h-full flex flex-col items-center">
-                <img
+                <Image
                   src={nftMetadata.image}
                   alt="NFT Medalla"
+                  width={320}
+                  height={400}
                   className="w-full h-[85%] object-contain filter drop-shadow-[0_20px_30px_rgba(0,0,0,0.3)] transition-transform hover:scale-105"
                 />
                 <div className="mt-4 px-6 py-2 bg-white border-4 border-black rounded-2xl shadow-[6px_6px_0px_0px_black] transform -rotate-1 hover:rotate-0 transition-all">
@@ -187,8 +215,10 @@ export default function Perfil({ setActiveRole }: { setActiveRole: (role: any) =
               /* Versión "Disponible" con Cinta Realista (Ghost Medal) */
               <div className="flex flex-col items-center justify-start w-full h-full opacity-30 grayscale hover:opacity-100 hover:grayscale-0 transition-all duration-1000 group">
                 {/* Ribbon/Cinta */}
-                <div className="w-48 h-64 bg-blue-600 shadow-[0_8px_20px_rgba(0,0,0,0.4)] z-0 relative transform origin-top group-hover:scale-y-105 transition-transform"
-                  style={{ clipPath: 'polygon(0% 0%, 100% 0%, 100% 100%, 50% 75%, 0% 100%)' }}>
+                <div
+                  className="w-48 h-64 bg-blue-600 shadow-[0_8px_20px_rgba(0,0,0,0.4)] z-0 relative transform origin-top group-hover:scale-y-105 transition-transform"
+                  style={{ clipPath: "polygon(0% 0%, 100% 0%, 100% 100%, 50% 75%, 0% 100%)" }}
+                >
                   <div className="w-full h-full bg-blue-700 opacity-20 bg-[linear-gradient(90deg,transparent_45%,rgba(0,0,0,0.1)_50%,transparent_55%)]"></div>
                   <div className="absolute top-0 left-0 w-full h-full shadow-inner"></div>
                 </div>
@@ -202,7 +232,9 @@ export default function Perfil({ setActiveRole }: { setActiveRole: (role: any) =
                   <span className="text-8xl drop-shadow-xl">{tierEmoji}</span>
                 </div>
 
-                <p className="mt-8 font-black text-sm uppercase italic text-slate-400 tracking-[0.2em]">Medalla Disponible</p>
+                <p className="mt-8 font-black text-sm uppercase italic text-slate-400 tracking-[0.2em]">
+                  Medalla Disponible
+                </p>
               </div>
             )}
           </div>

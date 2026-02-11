@@ -1,18 +1,21 @@
 import type { NextConfig } from "next";
 
-
 const nextConfig: NextConfig = {
   reactStrictMode: true,
   devIndicators: false,
   typescript: {
-    ignoreBuildErrors: process.env.NEXT_PUBLIC_IGNORE_BUILD_ERROR === "true"
+    ignoreBuildErrors: process.env.NEXT_PUBLIC_IGNORE_BUILD_ERROR === "true",
   },
   eslint: {
-    ignoreDuringBuilds: process.env.NEXT_PUBLIC_IGNORE_BUILD_ERROR === "true"
+    ignoreDuringBuilds: process.env.NEXT_PUBLIC_IGNORE_BUILD_ERROR === "true",
   },
   webpack: config => {
     config.resolve.fallback = { fs: false, net: false, tls: false };
     config.externals.push("pino-pretty", "lokijs", "encoding");
+    config.resolve.alias = {
+      ...config.resolve.alias,
+      "@react-native-async-storage/async-storage": false,
+    };
     return config;
   },
   headers: async () => [
@@ -21,7 +24,8 @@ const nextConfig: NextConfig = {
       headers: [
         {
           key: "Content-Security-Policy",
-          value: "connect-src 'self' https://eth-sepolia.g.alchemy.com https://*.buidlguidl.com https://*.merkle.io wss://*.walletconnect.com https://*.walletconnect.com https://eth-mainnet.alchemyapi.io https://*.alchemy.com; script-src 'self' 'unsafe-eval' 'unsafe-inline'; script-src-elem 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; font-src 'self' data:;",
+          value:
+            "connect-src 'self' https://eth-sepolia.g.alchemy.com https://*.buidlguidl.com https://*.merkle.io wss://*.walletconnect.com https://*.walletconnect.com https://eth-mainnet.alchemyapi.io https://*.alchemy.com; script-src 'self' 'unsafe-eval' 'unsafe-inline'; script-src-elem 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; font-src 'self' data:;",
         },
       ],
     },
@@ -37,7 +41,5 @@ if (isIpfs) {
     unoptimized: true,
   };
 }
-
-
 
 module.exports = nextConfig;
